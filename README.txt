@@ -1,0 +1,9 @@
+The LifeCounter program allows users to record life totals for analog games (such as card games or board games) without needing traditional tools such as paper or dice.
+
+This program lets you keep track of scores for any number of players. To add a player, type in the player's name in the text field above the button that says "Add Player", then press the Add Player button. That player will be added to the list of players at the top, and that player will be listed at the top of the screen. Note that multiple players with the same name are not allowed.
+
+Once you have multiple players within the program, it's easy to change which player you are looking at. Just select a player from the drop-down box, and their health is displayed at the top.
+
+If you want to remove a player, type in the player's name in the text field where you added a player, then press the Remove Player button underneath the Add Player button. While there is no confirmation message about removing players, it takes a fair bit of work to remove a player from the game because you physically need to type in the player's name and press the Remove Player button, so removing a player cannot be done accidentally.
+
+To change player's scores, select the player from the drop-down menu, then press Up to increase their health, Down to decrease it, or Reset to change the health to its default value (like when you want to start a new game after one finished). By default, it increases/decreases health by 1 and has a base heatlh of 20, but if you want you can change these values with the bottom text field. Increment and Decrement will increase/decrease a player's health by values listed here (given they are integers), while pressing Set base health will set a new base health for all players, and change each player's health to that value.
